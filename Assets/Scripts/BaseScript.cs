@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem.XR;
 
 public class BaseScript : MonoBehaviour
 {
@@ -13,16 +14,18 @@ public class BaseScript : MonoBehaviour
     }
 
     void Update()
-    {
-        // Rotaciona o personagem no eixo Y (Horizontal / A e D)
-        float rotation = Input.GetAxis("Horizontal") * rotateSpeed * Time.deltaTime;
-        transform.Rotate(0, rotation, 0);
+    {        
+        //float rotation = Input.GetAxis("Horizontal") * rotateSpeed * Time.deltaTime;
+        //transform.Rotate(0, rotation, 0);
+        
+        //Vector3 forward = transform.TransformDirection(Vector3.forward);
+        //float realSpeed = speed * Input.GetAxis("Vertical");
 
-        // Move para frente e para trás baseado no input (Vertical / W e S)
-        Vector3 forward = transform.TransformDirection(Vector3.forward);
-        float curSpeed = speed * Input.GetAxis("Vertical");
+        float z = Input.GetAxis("Vertical");
+        float x = Input.GetAxis("Horizontal");
+        Vector3 move = new Vector3(x, 0, z);
 
-        // Executa o movimento simples (gravidade inclusa automaticamente)
-        controller.SimpleMove(forward * curSpeed);
+        controller.SimpleMove(move * speed);
+        //controller.SimpleMove(forward * realSpeed);
     }
 }
