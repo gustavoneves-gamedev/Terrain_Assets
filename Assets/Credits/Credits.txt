@@ -1,0 +1,18 @@
+caustics.png - Autor: "mads" (fonte: https://opengameart.org/content/caustics-with-color-split)
+Normal Map - Água;
+sbs_-_seamless_sky_backgrounds_-_1024x512.zip - Autor: "Screaming Brain Studios" (fonte: https://opengameart.org/content/seamless-sky-backgrounds)
+Textura: Skybox;
+60 free plants.zip - Autor: "rubberduck" (fonte: https://opengameart.org/content/60-cc0-vegetation-textures)
+Textura: Plantas/Grama (Details);
+sgrass5-1.png - Autor: "virtushda" (fonte: https://opengameart.org/content/grass-2048512-1)
+Textura: Grama;
+ground.zip - Autor: "murdasch" (fonte: https://opengameart.org/content/ground-texture-set)
+Textura: Grama (Ground), Pedras (Ground), Areia (Ground);
+grass_-_starninjas_v2.png & dry_grass_-_starninjas_v2.png - Autor: "StarNinjas" (fonte: https://opengameart.org/content/2-seamless-grass-textures)
+Textura: Grama (Ground), Grama Seca (Ground);
+gras364.jpg  - Autor: "Ghoulsblade" (fonte: https://opengameart.org/content/ground-textures-gras364jpg)
+Textura: Grama (Ground);
+Leaf_leaves_branch_texture_studio - Autor: "Titus Tscharntke" (fonte: https://commons.wikimedia.org/wiki/File%3ALeaf_leaves_branch_texture_studio.jpg)
+Textura: Galho/Folhagem;
+Birch_tree_trunk - Autor: "Titus Tscharntke" (fonte: https://commons.wikimedia.org/wiki/File%3ABirch_tree_trunk.jpg)
+Textura: Tronco/Casca.
